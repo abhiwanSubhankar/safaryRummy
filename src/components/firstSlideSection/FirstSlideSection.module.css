@@ -1,0 +1,178 @@
+.main {
+    background: linear-gradient(180deg, #D8971A 0%, #EFD02C 100%);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 0;
+}
+
+.formWrapper {
+    padding: 40px;
+    position: relative;
+    z-index: 15;
+}
+
+.badge {
+    position: relative;
+    z-index: 11;
+    width: 380px;
+}
+
+.badge p {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    position: absolute;
+    top: 25px;
+    right: 60px;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Container Styles */
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    padding-top: 100px;
+    margin-top: -100px;
+    margin-bottom: 60px;
+    z-index: 10;
+}
+
+/* Input Field Styles */
+.inputContainer {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 34px;
+    height: 24px;
+    margin-right: 10px;
+    background: rgba(20, 85, 5, 1);
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.inputField {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+}
+
+/* Register Button Styles */
+.registerButton {
+    width: 100%;
+    background: radial-gradient(49.93% 2459.09% at 49.93% 50%, #30AD13 0%, #124F04 100%);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background 0.3s;
+}
+
+.registerButton:hover {
+    background: linear-gradient(to right, #388e3c, #1b5e20, #388e3c);
+}
+
+/* Separator Styles */
+.separator {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 14px;
+    color: #777;
+    margin: 20px 0;
+}
+
+.separator span {
+    margin: 0 10px;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #7c7c7cb5;
+}
+
+/* Google Button Styles */
+.googleButton {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.googleButton:hover {
+    background-color: #f7f7f7;
+}
+
+.googleIcon {
+    width: 34px;
+    height: 34px;
+    padding-right: 10px;
+    margin-right: 40px;
+    border-right: 1px solid lightgray;
+
+}
+
+.chips{
+    position: relative;
+    z-index: 1;
+}
+
+.chip1{
+    position: absolute;
+    width: 70px;
+    bottom: -10px;
+    right: 30px;
+    z-index: 2;
+}
+.chip2{
+    position: absolute;
+    width: 120px;
+    z-index: 2;
+    bottom: -20px;
+    left: 30px;
+}
+.chip3{
+    position: absolute;
+    width: 120px;
+    z-index: 2;
+    bottom: 20px;
+    left: 170px;
+}

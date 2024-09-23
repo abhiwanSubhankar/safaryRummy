@@ -1,0 +1,39 @@
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px; /* Size of the folded corner */
+    height: 50px; /* Size of the folded corner */
+    background-color: #f4f4f4; /* Color of the folded corner */
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+  }
+  
+  .card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px; /* Adjust the size to match the ::before */
+    height: 50px; /* Adjust the size to match the ::before */
+    background-color: #ddd; /* Color for the shadow/secondary layer */
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    transform: rotate(180deg) translateX(-100%);
+    opacity: 0.2; /* Adjust opacity for the shadow effect */
+  }
+  

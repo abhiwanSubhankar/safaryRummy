@@ -1,0 +1,85 @@
+.card {
+    background-color: #275d2a; /* Dark Green Background */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    color: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin-right: 15px;
+    margin-top: 50px;
+    z-index: 10;
+  }
+  .quoteWrapper{
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    margin-top: -50px;
+    z-index: 15;
+  }
+  .quote {
+    position: relative;
+    background: hsl(54, 100%, 50%);
+    height: 60px;
+    width: 30px;
+    clip-path: polygon(0 0, 0 0, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+  }
+  
+  .content {
+    margin-top: 10px;
+  }
+  
+  .rating {
+    font-size: 18px;
+  }
+  
+  .reviewText {
+    margin: 15px 0;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+  }
+  
+  .profileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profileInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .designation {
+    font-size: 12px;
+    color: #b0b0b0;
+  }
+  
+  .verified {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    color: #ffe600;
+    font-size: 12px;
+  }
+  
+  /* .verified::before {
+    content: '★';
+    margin-right: 4px;
+    color: #ffe600;
+  } */
+  

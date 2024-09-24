@@ -1,39 +1,158 @@
-.main{
-    background-color: #F0F0F0;
-    /* background-color: red; */
-    height: 500px;
+.main {
+  background-color: #F0F0F0;
+  height: fit-content;
+  padding: 40px 0;
 }
+
 .infoBar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 0;
-    background-color: #f9f9f9;
-    height: fit-content;   
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #f9f9f9;
+  height: fit-content;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  text-align: center;
+  padding: 10px;
+  border-left: 1px solid lightgray;
+}
+
+.infoItem:nth-child(1) {
+  border: none;
+}
+
+.icon {
+  width: 24px;
+  /* Adjust icon size */
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+span {
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+
+}
+
+.text {
+  width: fit-content;
+  font-size: 3rem;
+  font-weight: 500;
+/* margin-bottom: -100px; */
+  margin: 0;
+  padding: 2rem;
+}
+
+.text span {
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+}
+
+.text1{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.DownloadSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  margin-top: -80px;
+}
+
+.downloadBtns {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -10px;
+}
+
+.downloadBtns button {
+  border: none;
+  width: 15vw;
+  cursor: pointer;
+}
+
+/* Input Field Styles */
+.inputContainer {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid;
+}
+
+.inputicon {
+  width: 34px;
+  height: 24px;
+  margin-right: 10px;
+  font-weight: 600;
+  color: gray;
+  padding: 10px;
+  border-right: 1px solid;
+}
+
+.inputField {
+  border: none;
+  background: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+}
+
+/* Register Button Styles */
+.registerButton {
+  width: 7rem;
+  height: fit-content;
+  background: radial-gradient(49.93% 2459.09% at 49.93% 50%, #30AD13 0%, #124F04 100%);
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background 0.3s;
+
+}
+
+.registerButton:hover {
+  background: linear-gradient(to right, #388e3c, #1b5e20, #388e3c);
+}
+
+.getLink {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.missedCall{
+  margin-left: 40px;
+  margin-top: -40px;
+}
+.missedCall>div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: x-large;
+  font-weight: 600;
   
-  .infoItem {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    text-align: center;
-    padding: 10px;
-    border-left: 1px solid lightgray;
-  }
-  .infoItem:nth-child(1){
-    border: none;
-  }
-  
-  .icon {
-    width: 24px; /* Adjust icon size */
-    height: 24px;
-    margin-bottom: 5px;
-  }
-  
-  span {
-    font-size: 14px;
-    color: #333;
-    font-weight: 600;
-  }
-  
+}
+
+.missedCall>div>img {
+  width: 10%;
+}

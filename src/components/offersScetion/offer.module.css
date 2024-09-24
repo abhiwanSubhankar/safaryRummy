@@ -1,0 +1,65 @@
+.main{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.benefit{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.benefitItem {
+    display: flex;
+    font-weight: 600;
+    gap: 20px;
+}
+
+.benefitItem img {
+    width: 60px;
+}
+.checkPoints{
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.checkPoints >img {
+    width: 10px;
+}
+.checkPoints p{
+font-size: 10px;
+}
+
+
+/* Register Button Styles */
+.registerButton {
+    width: 12rem;
+    height: fit-content;
+    background: radial-gradient(49.93% 2459.09% at 49.93% 50%, #30AD13 0%, #124F04 100%);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background 0.3s;
+  }
+  
+  .registerButton:hover {
+    background: linear-gradient(to right, #388e3c, #1b5e20, #388e3c);
+  }

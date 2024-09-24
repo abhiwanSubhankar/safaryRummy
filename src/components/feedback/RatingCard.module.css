@@ -1,0 +1,69 @@
+.ratingCard {
+    background-color: #2c5c2e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .overallRating {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .averageRating {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .ratingText {
+    font-size: 16px;
+  }
+  
+  .stars {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    color: gold;
+  }
+  
+  .ratingBars {
+    margin-top: 10px;
+  }
+  
+  .ratingBar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .barLabel {
+    width: 20px;
+    text-align: right;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    margin-left: 5px;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  .barFill {
+    height: 100%;
+    background-color: gold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+  }
+  

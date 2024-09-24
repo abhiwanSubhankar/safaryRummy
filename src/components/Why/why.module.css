@@ -1,32 +1,62 @@
+.main {
+  /* background-color: #0f6229; */
+  background: radial-gradient(50% 50% at 50% 50%, rgba(16, 83, 15, 0.75) 0%, #10530F 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  padding: 20px;
+}
+
+.text{
+font-size: 40px;
+margin: auto;
+width: fit-content;
+color: white;
+}
+.text span {
+  font-size: 40px;
+  color: #F6D32A;
+}
+
+.sliderContainer {
+  padding: 0 20px;
+}
+
+.slideItem{
+  max-width: 250px;
+  margin: auto;
+}
+
+
 /* card */
-
-
 .cashGameCard {
-    background-color: #0f6229;
-    border-radius: 10px 50px 10px 10px;
-    padding: 15px;
-    color: white;
-    position: relative; /* To position the cash icon */
-    width: 250px; /* Adjust width as needed */
-    height: 200px;
-  }
-  
-  .cashIcon {
-    position: absolute;
-    top: -20px; /* Adjust position as needed */
-    left: 10px;  /* Adjust position as needed */
-  }
-  
-  .card-content {
-    text-align: center;
-  }
-  
-  .card-title {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-  }
-  
-  .terms {
-    font-size: 0.8rem;
-  }
+  background-color: #0f6229;
+  border-radius: 10px 60px 10px 10px;
+  padding: 15px;
+  color: white;
+  position: relative;
+  width: 250px;
+  height: 200px;
+  clip-path: polygon(0 0, 83% 0, 100% 19%, 100% 100%, 0 100%);
+  border: 1px solid rgba(129, 255, 0, 0.66);
+}
+
+.cashIcon {
+  /* position: absolute; */
+  width: 150px;
+  margin-top: -60px;
+  /* z-index: 5; */
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.terms {
+  font-size: 0.8rem;
+}
+
 /* card */
